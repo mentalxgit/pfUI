@@ -104,7 +104,7 @@ function pfUI:UpdateColors()
       ["SHAMAN"]  = { r = 0.14, g = 0.35, b = 1.0,  colorStr = "ff0070de" },
       ["PRIEST"]  = { r = 1,    g = 1,    b = 1,    colorStr = "ffffffff" },
       ["WARLOCK"] = { r = 0.58, g = 0.51, b = 0.79, colorStr = "ff9482c9" },
-      ["PALADIN"] = { r = 0.96, g = 0.55, b = 0.73, colorStr = "fff58cba" },
+      ["PALADIN"] = { r = 0.99, g = 0.47, b = 0.52, colorStr = "ffFC7885" },
     }
 
     RAID_CLASS_COLORS = setmetatable(RAID_CLASS_COLORS, { __index = function(tab,key)
