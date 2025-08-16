@@ -18,7 +18,7 @@ pfUI:RegisterModule("combopoints", "vanilla:tbc", function ()
     pfUI.combopoints[point]:Hide()
 
     if pfUI.uf.target then
-      pfUI.combopoints[point]:SetPoint("TOPLEFT", pfUI.uf.target, "TOPRIGHT", border*3, -(point - 1) * (combo_height + border*3))
+      pfUI.combopoints[point]:SetPoint("TOPLEFT", pfUI.uf.player.power.bar, "BOTTOMLEFT", (point - 1) * (combo_width + border*3), -(border*3))
     else
       pfUI.combopoints[point]:SetPoint("CENTER", UIParent, "CENTER", (point - 3) * (combo_width + border*3), 10 )
     end
